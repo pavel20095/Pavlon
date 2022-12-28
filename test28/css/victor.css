@@ -1,0 +1,41 @@
+body{
+    background:linear-gradient(45deg,
+    #123323,
+    #658748,
+    #975586);
+    height: 100vh;
+    margin: 0;
+}
+div#container{
+    width: 500px;
+    margin: 100px auto;
+}
+
+div#testQwest{
+    background: #822882;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+div#testQwest h2{
+    text-align: center;
+    color:black;
+    padding: 20px 0;
+    margin: 0px;
+}
+div#listAnswer{
+    background: white;
+}
+label.Answer{
+    display: block;
+    padding: 0 20px 0 20px;
+    font-size: 27px;
+}
+input#testRez{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    background: #21738723;
+    border: none;
+    display: block;
+    padding: 10px 0;
+}
